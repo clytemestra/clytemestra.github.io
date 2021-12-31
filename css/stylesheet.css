@@ -48,7 +48,7 @@ h4 {
 
 .photo {
   float: right;
-  display: inline-block;
+  display: inline;
   border: 2px solid grey;
   margin: 5px;
 }
