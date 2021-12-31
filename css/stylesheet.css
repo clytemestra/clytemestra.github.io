@@ -29,7 +29,6 @@ h3, h4 {
 }
 
 h3 {
-  /*width: 20%;*/
   float: left;
   clear: left;
   margin-top: 0px;
@@ -47,8 +46,11 @@ h4 {
   line-height: 1.5;
 }
 
-address {
-  margin-left: 250px;
+.photo {
+  float: right;
+  display: inline-block;
+  border: 2px solid grey;
+  margin: 5px;
 }
 
 a {
