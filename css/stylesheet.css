@@ -54,7 +54,7 @@ img {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 225px 650px;
+  grid-template-columns: 1fr 3fr;
   column-gap: 10 px;
   grid-auto-rows: auto;
 }
