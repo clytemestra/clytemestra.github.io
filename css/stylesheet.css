@@ -46,6 +46,16 @@ h4 {
   line-height: 1.5;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 10 px;
+  grid-auto-rows: auto;
+}
+.grid-item {
+  padding 10px;
+}
+
 .photo {
   float: right;
   display: inline;
