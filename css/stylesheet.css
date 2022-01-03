@@ -1,3 +1,48 @@
+.dropbtn {
+  background-color: palegoldenrod;
+  color: black;
+  padding: 10 px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  padding: 50px 0px;
+  display: inline-block;
+  font-size: 25pt;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: palegoldenrod;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: grey
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu {
+  list-style-type: none;
+  font-size: 12pt;
+}
+
 body {
   background-color: #343434;
   max-width: 900px;
@@ -62,17 +107,10 @@ img {
   padding 10px;
 }
 
-/* .photo {
-  float: right;
-  display: inline;
-  border: 2px solid grey;
-  border-radius: 50%;
-  margin: 10px;
-} */
-
 a {
   color: palegoldenrod;
   font-weight: bold;
+
 }
 
 ul {
