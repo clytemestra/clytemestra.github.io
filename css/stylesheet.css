@@ -10,7 +10,7 @@
 
 .dropdown {
   position: absolute;
-  padding: 50px 0px;
+  padding: 50px 50px;
   display: inline-block;
   font-size: 25pt;
 }
