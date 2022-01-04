@@ -104,7 +104,7 @@ img {
   grid-auto-rows: auto;
 }
 .grid-item {
-  padding 10px;
+  padding: 10px;
 }
 
 a {
