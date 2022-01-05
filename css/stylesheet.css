@@ -1,3 +1,13 @@
+.catbtn {
+  background-color: palegoldenrod;
+  color: black;
+  padding: 10 px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
 .dropbtn {
   background-color: palegoldenrod;
   color: black;
