@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/stylesheet.css"
   </head>
-  <body>
+  <body onload="document.getElementById('myImage').src='images/which.png'">
     <header>
       <div class="dropdown">
       <button class="dropbtn">Menu</button>
@@ -31,9 +31,9 @@
             <h3>Which Cat?</h3>
         </div>
           <div class="grid-item">
-            <button onclick="document.getElementById('myImage').src='images/sasha.png'">Sasha</button>
+            <button class="catbtn" onclick="document.getElementById('myImage').src='images/sasha.png'">Sasha</button>
             <img id="myImage" src="images/sasha.png">
-            <button onclick="document.getElementById('myImage').src='images/isis.png'">Isis</button>
+            <button class="catbtn" onclick="document.getElementById('myImage').src='images/isis.png'">Isis</button>
             </div>
           <!-- <div class="grid-item">
             <h3>Work</h3>
