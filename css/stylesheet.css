@@ -5,7 +5,6 @@
   font-size: 20px;
   font-weight: bold;
   border: none;
-  cursor: pointer;
 }
 
 .dropbtn {
@@ -168,3 +167,13 @@ footer {
   display: inline-block;
   padding: 5px;
 }
+
+.cats{
+  text-align: center;
+  margin-right: 50px;
+}
+
+#myImage {
+  display: block;
+  border-radius: 50%
+  }
