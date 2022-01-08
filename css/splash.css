@@ -45,6 +45,8 @@
 
 body {
   background-color: #343434;
+  color: white;
+  font-family: "Montserrat", sans-serif;
   /* padding: 0px;
   background-image: url("../images/wallpaper.jpg");
   background-repeat: repeat;
