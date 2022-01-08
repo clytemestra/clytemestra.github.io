@@ -72,6 +72,14 @@ h2 {
   color: palegoldenrod;
 }
 
+a {
+  color: palegoldenrod;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 15px;
+}
 /* div.gallery {
   margin: 5px;
   float: left;
