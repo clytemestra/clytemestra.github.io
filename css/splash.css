@@ -67,12 +67,14 @@ h1 {
   font-size: 38pt;
   text-align: center;
   color: palegoldenrod;
+  font-family: "Caveat", cursive;
 }
 
 h2 {
   text-align: center;
   font-size: 24pt;
   color: palegoldenrod;
+  font-family: "Caveat", cursive;
 }
 
 a {
