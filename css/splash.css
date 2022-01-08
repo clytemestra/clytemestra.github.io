@@ -1,15 +1,75 @@
+.dropbtn {
+  background-color: palegoldenrod;
+  color: black;
+  padding: 10 px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  padding: 50px 50px;
+  display: inline-block;
+  font-size: 25pt;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: palegoldenrod;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu {
+  list-style-type: none;
+  font-size: 12pt;
+}
+
 body {
-  padding: 0px;
+  background-color: #343434;
+  /* padding: 0px;
   background-image: url("../images/wallpaper.jpg");
   background-repeat: repeat;
-  background-position: left top;
+  background-position: left top; */
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
+  /* padding-top: 200px; */
+}
+
+h1 {
+  font-size: 38pt;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  color: palegoldenrod;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24pt;
+  font-family: "Caveat", cursive;
+  color: palegoldenrod;
 }
 
 /* div.gallery {
