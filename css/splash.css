@@ -55,7 +55,16 @@ a {
   padding: 0px;
 }
 
-.mask:hover {
+.mask {
   -webkit-mask-image: -webkit-linear-gradient(darkred, transparent);
   mask-image: linear-gradient(darkred, transparent);
+}
+
+.mask:hover {
+  -webkit-mask-image: radial-gradient(
+    circle,
+    darkred 95%,
+    rgba(0, 0, 0, 0.5) 95%
+  );
+  mask-image: radial-gradient(circle, darkred 95%, rgba(0, 0, 0, 0.5));
 }
