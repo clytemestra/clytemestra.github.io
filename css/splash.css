@@ -42,15 +42,20 @@ a {
 /* ul {
   padding-left: 15px;
 } */
-div.gallery {
+.gallery {
   margin: 5px;
   float: left;
   width: 180px;
 }
 
-div.gallery img {
+.gallery img {
   display: inline-block;
   width: 100%;
   height: auto;
   padding: 0px;
+}
+
+.mask:hover {
+  -webkit-mask-image: -webkit-linear-gradient(darkred, transparent);
+  mask-image: linear-gradient(darkred, transparent);
 }
