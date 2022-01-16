@@ -1,5 +1,5 @@
 .catbtn {
-  background-color: palegoldenrod;
+  background-color: #f54e8e;
   color: black;
   padding: 10 px 16px;
   font-size: 20px;
@@ -8,9 +8,9 @@
 }
 
 .dropbtn {
-  background-color: palegoldenrod;
+  background-color: #f54e8e;
   color: black;
-  padding: 10 px 16px;
+  padding: 15 px 20px;
   font-size: 20px;
   font-weight: bold;
   border: none;
@@ -33,7 +33,7 @@
 }
 
 .dropdown-content a {
-  color: palegoldenrod;
+  color: #f54e8e;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -82,7 +82,7 @@ h4 {
 
 h3,
 h4 {
-  color: palegoldenrod;
+  color: #f54e8e;
   margin-bottom: 0;
 }
 
@@ -128,7 +128,7 @@ h4 {
 }
 
 a {
-  color: palegoldenrod;
+  color: #f54e8e;
   font-weight: bold;
 }
 
@@ -136,13 +136,18 @@ ul {
   padding-left: 15px;
 }
 
-/* header {
-  padding: 0px;
-  background-image: url("../images/logo.png");
+.banner {
+  padding: 10px;
+  width: 800px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/pomseeds.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: right top;
+  background-size: cover;
   margin-bottom: -50px;
-} */
+  margin: auto;
+}
 
 footer {
   text-align: center;
