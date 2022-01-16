@@ -1,5 +1,5 @@
 .catbtn {
-  background-color: #f54e8e;
+  background-color: #f21368;
   color: black;
   padding: 10 px 16px;
   font-size: 20px;
@@ -8,7 +8,7 @@
 }
 
 .dropbtn {
-  background-color: #f54e8e;
+  background-color: #f21368;
   color: black;
   padding: 15 px 20px;
   font-size: 20px;
@@ -33,7 +33,7 @@
 }
 
 .dropdown-content a {
-  color: #f54e8e;
+  color: #f21368;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -53,7 +53,7 @@
 }
 
 body {
-  background-color: #343434;
+  background-color: #110e0e;
   max-width: 900px;
   width: 85%;
   margin: 0 auto;
@@ -82,7 +82,7 @@ h4 {
 
 h3,
 h4 {
-  color: #f54e8e;
+  color: #f21368;
   margin-bottom: 0;
 }
 
@@ -128,7 +128,7 @@ h4 {
 }
 
 a {
-  color: #f54e8e;
+  color: #f21368;
   font-weight: bold;
 }
 
