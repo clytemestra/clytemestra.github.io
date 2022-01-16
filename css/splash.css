@@ -7,7 +7,7 @@ body {
   font-family: "Caveat", cursive;
   padding: 0px;
   background-image: url("../images/seeds.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: left top;
   background-size: cover;
 }
