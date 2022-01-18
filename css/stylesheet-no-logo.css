@@ -175,6 +175,10 @@ ul {
   padding-left: 15px;
 }
 
+img {
+  filter: grayscale(100%);
+}
+
 .banner {
   padding: 10px;
   width: 800px;
