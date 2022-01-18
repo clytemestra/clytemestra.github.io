@@ -242,5 +242,6 @@ footer {
 
 #myImage {
   display: inline;
+  float: right;
   border-radius: 50%;
 }
