@@ -164,6 +164,11 @@ h4 {
 a {
   color: #f21368;
   font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 ul {

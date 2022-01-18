@@ -39,9 +39,10 @@ a {
   text-decoration: none;
 }
 
-/* ul {
-  padding-left: 15px;
-} */
+a:hover {
+  text-decoration: underline;
+}
+
 .gallery {
   margin: 5px;
   float: left;
