@@ -58,7 +58,21 @@ a:hover {
   width: 180px;
 }
 
+.gallery2 {
+  /* margin: 5px; */
+  clear: left;
+  width: 180px;
+  margin: 0 auto;
+}
+
 .gallery img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+.gallery2 img {
   display: inline-block;
   width: 100%;
   height: auto;
