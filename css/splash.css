@@ -65,6 +65,13 @@ a:hover {
   margin: 0 auto;
 }
 
+/* .gallery3 {
+  /* margin: 5px; */
+  clear: right;
+  width: 180px;
+  margin: 0 auto;
+} */
+
 .gallery img {
   display: inline-block;
   width: 100%;
@@ -78,6 +85,13 @@ a:hover {
   height: auto;
   padding: 0px;
 }
+
+/* .gallery3 img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+} */
 
 .mask {
   -webkit-mask-image: -webkit-linear-gradient(darkred, transparent);
