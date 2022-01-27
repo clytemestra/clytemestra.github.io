@@ -1,6 +1,6 @@
 .topnav {
   background-color: 1100ee;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .topnav a {
@@ -208,14 +208,5 @@ footer {
 @media only screen and (max-width: 300px) {
   .text {
     font-size: 11px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .topnav a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
