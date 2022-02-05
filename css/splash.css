@@ -59,10 +59,11 @@ a:hover {
 }
 
 .gallery2 {
-  /* margin: 5px; */
+  margin: 5px;
   clear: left;
+  float: left;
   width: 180px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .gallery img {
