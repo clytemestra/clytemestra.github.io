@@ -1,5 +1,7 @@
+   /* ── Reset ──────────────────────────────────────────────────────── */
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+   /* ── Base ───────────────────────────────────────────────────────── */
 
     html { background: #000; }
 
@@ -36,6 +38,8 @@
       color: rgba(255,255,255,0.5);
       letter-spacing: 1px;
       text-transform: uppercase;
+      margin-bottom: 0;
+
     }
 
     /* ── Top navigation ──────────────────────────────────────────────── */
@@ -95,7 +99,25 @@
       font-size: 26px;
       font-weight: 700;
       color: #2b3542;
+      margin-bottom: 6px;
+
     }
+    .page-subtitle {
+      font-family: "Roboto Slab", sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      color: #999;
+      letter-spacing: 0.5px;
+    }
+
+    .page-contact {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #999;
+    }
+    .page-contact a { color: #0074a3; text-decoration: none; }
+    .page-contact a:hover { text-decoration: underline; }
+    .page-contact .sep { margin: 0 8px; color: #ddd; }
 
     /* ── Featured callout ────────────────────────────────────────────── */
     .featured {
@@ -158,6 +180,103 @@
       font-style: italic;
       margin: 16px 0 6px;
     }
+    .section-label {
+      font-family: "Roboto Slab", sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: #677f9c;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #e0e8f0;
+      padding-bottom: 8px;
+      margin: 52px 0 20px;
+    }
+    /* ── Body text ────────────────────────────────────────────────────── */
+    p {
+      font-family: Roboto, sans-serif;
+      font-size: 17px;
+      color: #444;
+      line-height: 1.75;
+      margin-bottom: 1em;
+    }
+
+    a { color: #0074a3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Sample entries ──────────────────────────────────────────────── */
+    .sample {
+      margin: 32px 0 36px;
+      padding-left: 18px;
+      border-left: 3px solid #dce8f0;
+    }
+
+    .sample-title {
+      font-family: "Roboto Slab", sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: #2b3542;
+      margin-bottom: 8px;
+    }
+
+    .sample-meta {
+      font-family: Roboto, sans-serif;
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+    .sample-meta strong { color: #666; }
+    .sample-meta a { color: #0074a3; }
+
+    .sample p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    /* ── File download links ─────────────────────────────────────────── */
+    .files {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .files-label {
+      font-family: Roboto, sans-serif;
+      font-size: 13px;
+      color: #999;
+    }
+
+    .files a {
+      display: inline-block;
+      font-family: "Roboto Slab", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: #0074a3;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border: 1px solid #b8d8e8;
+      border-radius: 2px;
+      padding: 4px 10px;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .files a:hover { background: #e8f4fa; text-decoration: none; }
+
+    /* ── Closing ──────────────────────────────────────────────────────── */
+    .closing { margin-top: 52px; }
+
+    .closing p { font-size: 16px; }
+
+    .sig {
+      margin-top: 32px;
+      font-style: italic;
+      color: #999;
+      font-size: 15px;
+      text-align: right;
+    }
+
 
     /* ── Lists ────────────────────────────────────────────────────────── */
     ul {
@@ -217,7 +336,11 @@
       font-size: 13px;
       color: rgba(255,255,255,0.3);
     }
-
+    .site-footer .copyright {
+      font-family: Roboto, sans-serif;
+      font-size: 13px;
+      color: rgba(255,255,255,0.3);
+    }
     /* ── Responsive ───────────────────────────────────────────────────── */
     @media (max-width: 600px) {
       .content-inner { padding: 0 20px; }
