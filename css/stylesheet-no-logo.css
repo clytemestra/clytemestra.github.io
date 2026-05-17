@@ -1,5 +1,5 @@
 .catbtn {
-  background-color: #f21368;
+  background-color: #a6aab3;
   color: black;
   padding: 10 px 16px;
   font-size: 20px;
@@ -29,7 +29,7 @@
 }
 
 .topnav a.active {
-  background-color: #f21368;
+  background-color: #4461a0;
   color: white;
 }
 
